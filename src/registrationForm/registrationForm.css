@@ -1,0 +1,30 @@
+.registration-form-container {
+  background-color: #fff;
+  padding: 2rem;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid #dbad37;
+}
+
+.form-wrapper {
+  padding: 2rem;
+}
+
+.form-title {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.registration-form .form-control {
+  margin-bottom: 1rem;
+  border-radius: 0.25rem;
+}
+
+.btn-validate {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #000;
+  border: none;
+  margin-top: 1rem;
+}

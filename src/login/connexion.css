@@ -1,0 +1,41 @@
+.divider-vertical {
+  border-left: 3px solid #daa520; /* Make it bold */
+  height: 50%; /* Full height of the parent */
+  position: absolute; /* Position it properly */
+  left: 50%; /* Place it in the middle of the parent */
+  top: 20;
+}
+
+.h-100 {
+  height: 100vh;
+}
+
+.border-right {
+  border-right: 2px solid #000;
+}
+.btn1 {
+  background: linear-gradient(
+    to bottom,
+    #ffffff,
+    #e6e6e6
+  ); /* Linear gradient from white to light grey */
+  border: none; /* No border */
+  color: #000; /* Text color */
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.2); /* Shadow on the upside */
+  border-radius: 5px; /* Rounded corners */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.btn1:hover {
+  background: linear-gradient(to bottom, #daa520, #daa520);
+  color: #fff;
+  box-shadow: 0 -6px 8px rgba(0, 0, 0, 0.3);
+}
+.btn {
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.2);
+}
+.btn-left {
+  width: 30%;
+  margin-left: 100px;
+}
+

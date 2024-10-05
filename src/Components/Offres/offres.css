@@ -1,0 +1,28 @@
+.custom-toast-style {
+  width: 100%; /* ou une largeur spécifique comme 500px pour une taille plus grande */
+  max-width: 500px; /* Ajustez selon vos préférences */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed; /* Position fixe pour le garder au centre */
+  z-index: 1050; /* S'assurer qu'il est au-dessus des autres éléments */
+}
+
+.custom-table {
+  margin-top: 20px; /* Moves the table down */
+}
+/* offres.css */
+.form-container {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+  border: 2px solid #ced4da;
+}
+
+.btn-primary-custom {
+  width: 100%;
+}

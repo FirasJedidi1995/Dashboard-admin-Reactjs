@@ -1,0 +1,26 @@
+.navbar {
+  height: 80px; /* Adjust this as needed to fit your design */
+  display: flex;
+  align-items: center; /* This will vertically center the links and logo */
+  justify-content: space-between; /* This will give space between the brand and the links */
+  /* other styles */
+}
+
+.navbar-logo {
+  height: 65px;
+  width: auto;
+  margin-left: 10px;
+  /* ensure the image doesn't stretch */
+  object-fit: contain;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-links {
+  /* Add styles for your navbar links here */
+  display: flex;
+  align-items: center;
+}

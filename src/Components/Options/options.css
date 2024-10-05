@@ -1,0 +1,39 @@
+.custom-toast {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1050;
+  }
+  
+  .custom-toast-style {
+    min-width: 400px; /* Larger width for better visibility */
+    padding: 20px; /* Increased padding for a larger appearance */
+  }
+  
+  .custom-table {
+    margin-top: 20px; /* Moves the table down */
+  }
+  /* offres.css */
+  .form-container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-control {
+    border: 2px solid #ced4da;
+  }
+  
+  .btn-primary-custom {
+    width: 100%;
+  }
+
+  /* options.css */
+.custom-table .action-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
